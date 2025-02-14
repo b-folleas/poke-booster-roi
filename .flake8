@@ -1,0 +1,8 @@
+[flake8]
+# Ignore the rule for line length
+ignore = E501
+
+# Ignore the rules for empty imports in __init__.py as this can be useful for module import
+per-file-ignores =
+    __init__.py: F401
+    __init__.py: F403
